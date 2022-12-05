@@ -138,8 +138,8 @@ try:
 
 # # Set up Adafruit connection
 # adafruitIoUrl = 'io.adafruit.com'
-# adafruitUsername = 'ridaminhaj'
-# adafruitAioKey = 'aio_STAP89P0iQWllOCDQub5OlVkKwjx'
+# adafruitUsername = ''
+# adafruitAioKey = ''
 
 # # Define callback function
 # def sub_cb(topic, msg):
@@ -208,8 +208,8 @@ except KeyboardInterrupt:
 
 # # Set up Adafruit connection
 # adafruitIoUrl = 'io.adafruit.com'
-# adafruitUsername = 'ridaminhaj'
-# adafruitAioKey = 'aio_STAP89P0iQWllOCDQub5OlVkKwjx'
+# adafruitUsername = ''
+# adafruitAioKey = ''
 
 # # Define callback function
 # def sub_cb(topic, msg):
@@ -226,7 +226,7 @@ except KeyboardInterrupt:
 # mqtt.set_callback(sub_cb)
 
 # # Send test message
-# feedName = "ridaminhaj/feeds/washer"
+# feedName = ""
 # testMessage = "Cycle Complete"
 # # testMessage = "1"
 # mqtt.publish(feedName,testMessage)
